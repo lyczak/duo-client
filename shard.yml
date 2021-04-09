@@ -7,6 +7,14 @@ authors:
 targets:
   duo-client:
     main: src/duo-client.cr
+  duo-cli:
+    main: src/duo-cli.cr
+
+dependencies:
+  myhtml:
+    github: kostya/myhtml
+  crotp:
+    github: philnash/crotp
 
 crystal: 1.0.0
 
