@@ -1,0 +1,13 @@
+name: duo-client
+version: 0.1.0
+
+authors:
+  - Delta Lyczak <dlyczak@protonmail.com>
+
+targets:
+  duo-client:
+    main: src/duo-client.cr
+
+crystal: 1.0.0
+
+license: MIT
